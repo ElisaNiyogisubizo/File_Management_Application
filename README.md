@@ -5,12 +5,13 @@ A multi-user file manager application built with Node.js, Express.js, MySQL, Red
 
 # Features
 
-User Authentication: Secure user registration and login with password hashing.
-File Management: Users can create, read, update, and delete files within their directories.
-Multilingual Support: Support for multiple languages with the ability to select the preferred language.
-Asynchronous Task Handling: Use of Redis to queue tasks like file uploads.
-Unit Testing: Comprehensive unit tests for core functionalities including authentication, file management, and queuing.
-Technologies Used
+- User Authentication: Secure user registration and login with password hashing.
+- File Management: Users can create, read, update, and delete files within their directories.
+- Multilingual Support: Support for multiple languages with the ability to select the preferred language.
+- Asynchronous Task Handling: Use of Redis to queue tasks like file uploads.
+- Unit Testing: Comprehensive unit tests for core functionalities including authentication, file management, and queuing.
+
+# Technologies Used
 Node.js: For building the backend API and server.
 Express.js: For routing and handling HTTP requests.
 MySQL: For storing user data and file metadata.
@@ -159,8 +160,8 @@ npm test
 [Beritha Niyotwagira](https://github.com/Beritha-n12)
 [Elisa Niyogisubizo](https://github.com/ElisaNiyogisubizo)
 
-```POST:       http://localhost:3000/files```
-```GET:        http://localhost:3000/files?fileName=myfile.txt```
-```PUT:        http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
-```DELETE:     http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
+- ```POST:       http://localhost:3000/files```
+- ```GET:        http://localhost:3000/files?fileName=myfile.txt```
+- ```PUT:        http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
+- ```DELETE:     http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
 
