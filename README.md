@@ -12,15 +12,15 @@ A multi-user file manager application built with Node.js, Express.js, MySQL, Red
 - Unit Testing: Comprehensive unit tests for core functionalities including authentication, file management, and queuing.
 
 # Technologies Used
-Node.js: For building the backend API and server.
-Express.js: For routing and handling HTTP requests.
-MySQL: For storing user data and file metadata.
-Redis: For queuing asynchronous tasks (e.g., file uploads).
-i18next: For internationalization (i18n) to support multiple languages.
-Multer: For handling file uploads.
-bcryptjs: For securely hashing passwords.
-Passport.js / JWT: For user authentication.
-Jest: For unit testing.
+- Node.js: For building the backend API and server.
+- Express.js: For routing and handling HTTP requests.
+- MySQL: For storing user data and file metadata.
+- Redis: For queuing asynchronous tasks (e.g., file uploads).
+- i18next: For internationalization (i18n) to support multiple languages.
+- Multer: For handling file uploads.
+- bcryptjs: For securely hashing passwords.
+- Passport.js / JWT: For user authentication.
+- Jest: For unit testing.
 
 # Installation
 
