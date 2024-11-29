@@ -112,6 +112,14 @@ DELETE /files/:fileId: Delete a file.
 
 ```Response: { "message": "File deleted successfully" }```
 
+
+- ```POST:       http://localhost:3000/files```
+- ```GET:        http://localhost:3000/files?fileName=myfile.txt```
+- ```PUT:        http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
+- ```DELETE:     http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
+
+
+
 Multilingual Support
 
 The user interface supports multiple languages. The default language is English, but you can add more languages by updating the i18next configuration.
@@ -159,9 +167,3 @@ npm test
 
 [Beritha Niyotwagira](https://github.com/Beritha-n12)
 [Elisa Niyogisubizo](https://github.com/ElisaNiyogisubizo)
-
-- ```POST:       http://localhost:3000/files```
-- ```GET:        http://localhost:3000/files?fileName=myfile.txt```
-- ```PUT:        http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
-- ```DELETE:     http://localhost:3000/files/6740ad6c7bfcf8bc71e75f5d```
-
